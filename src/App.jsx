@@ -1,16 +1,17 @@
 import React from 'react';
-import Header from './components/header'; // Pass på riktig sti og filnavn
+import Header from './components/header'; 
 
 function App() {
   return (
     <div>
-      <Header /> // Sørg for at Header-komponenten er riktig definert og eksportert
+      <Header />
       <main>
         <h1>Velkommen til Egg fra hagen</h1>
-        <p></p> // Tomt paragrafelement – du kan legge til innhold her
+        <p>Fritt gående høns </p> 
       </main>
     </div>
   );
 }
 
 export default App;
+
