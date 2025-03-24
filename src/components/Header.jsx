@@ -8,10 +8,10 @@ function Header() {
       left: 0,
       right: 0,
       padding: '1rem', 
-      backgroundColor: '#000',         // Svart bakgrunn
-      borderBottom: '2px solid #fff',    // Hvit outline nederst
+      backgroundColor: '#000',         
+      borderBottom: '2px solid #fff',   
       zIndex: 1000,
-      color: '#fff'                     // Setter standard tekstfarge til hvit
+      color: '#fff'                   
     }}>
       <div style={{ 
         maxWidth: '1200px', 
