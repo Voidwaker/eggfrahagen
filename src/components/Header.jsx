@@ -6,7 +6,7 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="#hjem">EggFraHangen</a>
+        <a className="navbar-brand" href="#hjem">EggFraHagen</a>
         <button 
           className="navbar-toggler" 
           type="button" 

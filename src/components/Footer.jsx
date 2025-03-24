@@ -15,7 +15,7 @@ function Footer() {
         textAlign: 'center', 
         alignItems: 'center',
       }}>
-        <p style={{ margin: 0 }}>© 2025 EggFraHangen. All rights reserved.</p>
+        <p style={{ margin: 0 }}>© 2025 EggFraHagen. All rights reserved.</p>
       </div>
     </footer>
   );
