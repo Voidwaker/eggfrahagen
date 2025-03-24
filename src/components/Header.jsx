@@ -1,41 +1,38 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 function Header() {
   return (
-    <header style={{ 
-      position: 'fixed',
-      top: 0,
-      left: 0,
-      right: 0,
-      padding: '1rem', 
-      backgroundColor: '#000',         
-      borderBottom: '2px solid #fff',   
-      zIndex: 1000,
-      color: '#fff'                   
-    }}>
-      <div style={{ 
-        maxWidth: '1200px', 
-        margin: '0 auto', 
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center'
-      }}>
-        <h1 style={{ margin: 0 }}>EggFraHangen</h1>
-        <nav>
-          <ul style={{ 
-            listStyle: 'none', 
-            margin: 0, 
-            padding: 0, 
-            display: 'flex', 
-            gap: '1rem' 
-          }}>
-            <li><a href="#hjem" style={{ color: '#fff', textDecoration: 'none' }}>Hjem</a></li>
-            <li><a href="#om" style={{ color: '#fff', textDecoration: 'none' }}>Om Produktet</a></li>
-            <li><a href="#kontakt" style={{ color: '#fff', textDecoration: 'none' }}>Kontakt</a></li>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div className="container">
+        <a className="navbar-brand" href="#hjem">EggFraHangen</a>
+        <button 
+          className="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <a className="nav-link" href="#hjem">Hjem</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#om">Om Produktet</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#kontakt">Kontakt</a>
+            </li>
           </ul>
-        </nav>
+        </div>
       </div>
-    </header>
+    </nav>
   );
 }
 
