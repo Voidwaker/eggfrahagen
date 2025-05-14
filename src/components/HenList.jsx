@@ -6,9 +6,21 @@ function HenList() {
   const henData = [
     {
       image: 'https://via.placeholder.com/300',
-      name: 'Klara',
-      breed: 'Lohmann Brown',
-      description: 'En vennlig og nysgjerrig høne som trives godt i hagen.'
+      name: 'Mia',
+      breed: 'Brun Lohman',
+      description: 'En vennlig og nysgjerrig høne som trives godt i hagen. Legger brune egg.'
+    },
+    {
+      image: 'https://via.placeholder.com/300',
+      name: 'Pernille',
+      breed: 'Brun Lohman',
+      description: 'En vennlig og nysgjerrig høne som trives godt i hagen. Legger brune egg.'
+    },
+    {
+      image: 'https://via.placeholder.com/300',
+      name: 'Turi',
+      breed: 'Brun Lohman',
+      description: 'En vennlig og nysgjerrig høne som trives godt i hagen. legger brune egg.'
     },
     {
       image: 'https://via.placeholder.com/300',
