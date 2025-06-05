@@ -2,7 +2,7 @@ import React from 'react';
 import HenCard from './HenCard';
 
 function HenList() {
-  // Eksempeldata for hønene. Erstatt gjerne med ekte data!
+  // Eksempeldata for hønene. Erstatt gjerne med ekte data!!
   const henData = [
     {
       image: 'https://via.placeholder.com/300',
