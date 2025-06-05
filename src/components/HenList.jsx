@@ -8,13 +8,13 @@ function HenList() {
       image: 'https://via.placeholder.com/300',
       name: 'Mia',
       breed: 'Brun Lohman',
-      description: 'En vennlig og nysgjerrig høne som trives godt i hagen. Legger brune egg.'
+      description: 'nyskjerrig og sosial høne, skal helst være med på alt du gjør i hagen. Legger brune egg.'
     },
     {
       image: 'https://via.placeholder.com/300',
       name: 'Pernille',
       breed: 'Brun Lohman',
-      description: 'En vennlig og nysgjerrig høne som trives godt i hagen. Legger brune egg.'
+      description: 'den tøffeste av de 3, men meget sosial og snill. Legger brune egg.'
     },
     {
       image: 'https://via.placeholder.com/300',
